@@ -57,7 +57,7 @@ class GetSubtitles(object):
                 sys.exit(1)
             self.downloader = [DownloaderManager.get_downloader_by_name(downloader)]
         self.failed_list = []  # [{'name', 'path', 'error', 'trace_back'}
-        self.sub_identifier = "" if not self.plex else ".zh"
+        self.sub_identifier = "" if not self.plex else ".chi"
         self.sub_store_path = sub_path.replace('"', "")
         if not path.isdir(self.sub_store_path):
             if self.sub_store_path:

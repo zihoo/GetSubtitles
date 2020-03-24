@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 from getsub.__version__ import __version__
 
 setup(
-    author="gyh1621",
-    author_email="guoyh01@gmail.com",
+    author="zihoo",
+    author_email="huanghuzhi@gmail.com",
     description="download subtitles easily",
     license="MIT",
     name="getsub",
